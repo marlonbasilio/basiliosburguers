@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basilio's Burguers</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link href='https://css.gg/user.css' rel='stylesheet'>
+    <link href='https://css.gg/close.css' rel='stylesheet'>
+    <link href='https://css.gg/menu.css' rel='stylesheet'>
+    <link href='https://css.gg/shopping-cart.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <section class="logo">
+                <div>
+                    <a href="#home">
+                        <img src="assets/images/hamburger.png" alt="Logo image">
+                    </a>
+                </div>
+            </section>
+            <i class="gg-menu"></i>
+            <i class="gg-close menuHidden"></i>
+            <nav>
+                <ul>
+                    <li><a href="#burger">Burguers</a></li>
+                    <li><a href="#pizza">Pizza</a></li>
+                    <li><a href="#login" class="open-login"><i class="gg-user"></i></a></li>
+                    <li><a href="#Cart" class="open-cart"><i class="gg-shopping-cart"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="banner">
+        <section class="banner-txt">
+            <h1 class="banner-title">Basilio's<span>'</span>s Burguers</h1>
+            <div class="banner-bar"></div>
+        </section>
+    </section>
+
+    <div class="models">
+        
+        <article class="offers-area--item">
+            <a href="#" class="offers-link">
+                <div class="item--img">
+                    <img src="">
+                    <span class="item-discount-label">-20%</span>
+                </div>
+                <div class="item-content">
+                    <ul class="star-rating">
+                        <li class="star-icon active"></li>
+                        <li class="star-icon active"></li>
+                        <li class="star-icon active"></li>
+                        <li class="star-icon active"></li>
+                        <li class="star-icon"></li>
+                    </ul>
+                    <h3 class="item-content--name"></h3>
+                    <div class="item-content-prices">
+                        <span class="item-content--current-price"></span>
+                        <h4 class="item-content--prices-old-price"></h4>
+                    </div>
+                </div>
+            </a>
+        </article>
+
+        
+        <div class="product-item">
+            <img src="" class="product-item--img">
+            <div class="product-item--info">
+                <h2 class="product-item--info-name"></h2>
+                <span class="product-item--price"></span>
+                <button class="default-btn product-btn-cart">Add to Cart</button>
+            </div>
+        </div>
+        
+        <label class="extras-itens">
+            <input type="checkbox" class="extra-additional--checkbox">
+            <p class="extra-name"><p class="extra-price"></p></p>
+        </label>                
+        
+        <div class="cart-itens--item">
+            <img src="" class="cart-itens--item--img">
+            <h2 class="cart-itens--item-name"></h2>
+            <div class="cart-itens--item-qtarea qtarea">
+                <button class="cart-btn-qtmenos btn-qt">-</button>
+                <span class="cart-itens--item-qtarea--qt qtarea--qt"></span>
+                <button class="cart-btn-qtmais btn-qt">+</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <main>
+
+        <section class="offers">
+            <div class="container">
+
+                <div class="section-header">
+                        <h1 class="title-section">Ofertas</h1>
+                </div>
+
+                <section class="offers-area">
+                </section>
+                
+            </div>
+        </section>
+
+        <section class="product product-burger" id="burger">
+            <div class="container">
+                <article class="product-body">
+                    <div class="section-header">
+                        <h1 class="title-section">Burguer</h1>
+                    </div>
+                    <p class="product-desc">Lanches inspirados em deuses gregos</p>
+                    <div class="product-area"></div>
+                </article>
+            </div>
+        </section>
+
+        <section class="product product-pizza product-light" id="pizza">
+            <div class="container">
+                <article class="product-body">
+                    <div class="section-header">
+                        <h1 class="title-section">Pizzas</h1>
+                    </div>
+                    <p class="product-desc">Melhores Pizzas da região</p>
+                    <div class="product-area"></div>
+                </article>
+            </div>
+        </section>
+        
+    </main>
+
+    <section class="product-window-area">
+        <div class="product-window-body">
+            
+            <div class="product-window-img">
+
+                <img src="assets/images/burgerBig02.jpg" alt="" class="product-window-img--img">
+            </div>
+
+            <div class="product-window-info">
+                <button class="product-window-info--cancel-mobile product-window-info--cancel-default">Cancel</button>
+                <h1 class="product-window-info--name"></h1>
+
+                <p class="product-window-info--ingredients"></p>
+
+                <div class="product-window-info-extra">
+                    <h4 class="product-window-info-extra--txt"></h4>
+
+                    <div class="product-window-info-extra-size">
+                        <button data-key="0" class="btn-extra--size">Pequeno <span>4</span></button>
+                        <button data-key="1" class="btn-extra--size">Médio <span>8</span></button>
+                        <button data-key="2" class="btn-extra--size selected">Grande <span>12</span></button>
+                    </div>
+                    <div class="product-window-info-extra-additional"></div>
+                        
+                </div>
+
+                <div class="product-window-info--price-area">
+
+                    <h4 class="product-window-info--price-area--txt">Preço</h4>
+
+                    <div class="product-window-info--price-area-price">
+                        <span class="product-window-info--price-area-price--actual-price"></span>
+                        <div class="product-window-info--price-area-price-qtarea qtarea">
+                            <button class="btn-qtmenos-modal btn-qt">-</button>
+                            <p class="product-window-info--price-area-price-qtarea--qt qtarea--qt"></p>
+                            <button class="btn-qtmais-modal btn-qt">+</button>
+                        </div>
+                    </div>
+                    <a href="#" class="product-window-info--add-button default-btn">ADD TO CART</a>
+                    <button class="product-window-info--cancel product-window-info--cancel-default">Cancel</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <aside>
+        <section class="login">
+            <div class="close-default close-login"><i class="gg-close"></i></div>
+            <div class="login-image">
+                <img src="assets/images/user-img.png" alt="">
+            </div>
+
+            <div class="login-user-area">
+                <h2 class="login-user-area--txt">Login</h2>
+
+                <form method="post">
+                    <label>
+                        <p class="login-user-area--p">Email</p>
+                        <input type="email" name="login-email" id="login-email" placeholder="e-mail address" size="27">
+                    </label>
+                    <label>
+                        <p class="login-user-area--p">Password</p>
+                        <input type="password" name="login-password" id="login-password" placeholder="password" size="27">
+                    </label>
+                    <button type="submit" class="default-btn">login</button>
+                </form>
+
+            </div>
+
+        </section>
+
+        <section class="cart">
+            <div class="close-default close-cart"><i class="gg-close"></i></div>
+            <div class="cart-txt">
+                <h2 class="cart-txt-h2">Cart Itens</h2>
+            </div>
+            <div class="cart-itens">
+
+            </div>
+            <div class="cart-price-info">
+                <h2 class="cart-price-info--total cart-price-info--default">Total <span class="cart-price-info--span">R$ --,--</span></h2>
+                <button class="default-btn cart-price-info--button">Finalizar compra</button>
+            </div>
+        </section>
+    </aside>
+    <footer>
+
+    </footer>
+    <script src="assets/js/product.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
